@@ -1,7 +1,7 @@
 const express = require('express')
 const request = require('request')
 const app = express()
-const port = 80
+const port = process.env.PORT || 80
 const css = 
 `<style>
     .btn.btn-lg:not(.digit_btn) {
